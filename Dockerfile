@@ -1,5 +1,5 @@
 # Je dis à Hugging Face d'installer un ordinateur virtuel avec Python 3.9
-FROM python:3.9
+FROM python:3.13
 
 # Je crée un dossier "code" à l'intérieur de cet ordinateur virtuel (la boîte Docker)
 WORKDIR /code
