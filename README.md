@@ -25,8 +25,7 @@ Ce projet déploie une solution "Full-Stack Data" pour résoudre ces frictions :
 ## Architecture Technique (Cloud & CI/CD)
 
 Le projet est divisé en deux services web indépendants (Microservices) :
-1. **Front-End / BI :** Application **Streamlit** pour l'analyse métier.
-   👉 **[Voir le Dashboard en ligne](Lien_vers_ton_Streamlit)**
+1. **Front-End / BI :** Application Streamlit pour l'analyse métier. 👉 [Voir le Dashboard en ligne](https://ton-vrai-lien-streamlit.app)
 2. **Back-End / Inférence :** Serveur REST **FastAPI** + Uvicorn hébergeant le modèle ML.
 3. **Infrastructure :** API conteneurisée via **Docker** et hébergée publiquement sur **Render**.
 
@@ -40,8 +39,8 @@ Le projet est divisé en deux services web indépendants (Microservices) :
 
 ## Tester l'API en direct (Production)
 
-L'API de prédiction est en ligne et accessible publiquement ! Vous pouvez interagir avec l'IA via l'interface Swagger (UI) :
-👉 **[Lien vers l'API GetAround en ligne](https://getaround-project-demo.onrender.com/docs)** *(Remplace par ton URL Render)*
+L'API de prédiction est en ligne et accessible publiquement ! Vous pouvez interagir avec l'IA via l'interface Swagger (UI) : 
+👉 **[Lien vers l'API GetAround en ligne](https://ton-vrai-nom-d-api.onrender.com/docs)**
 
 **Format de requête attendu (Exemple de Payload JSON) :**
 ```json
