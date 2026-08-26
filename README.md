@@ -26,7 +26,7 @@ Ce projet déploie une solution "Full-Stack Data" pour résoudre ces frictions :
 
 Le projet est divisé en deux services web indépendants (Microservices) :
 1. **Front-End / BI :** Application Streamlit pour l'analyse métier. 
-👉 [Voir le Dashboard en ligne](https://ton-app-getaround.streamlit.app/)
+👉 [Voir le Dashboard en ligne](https://getaround-carelle.streamlit.app/)
 2. **Back-End / Inférence :** Serveur REST **FastAPI** + Uvicorn hébergeant le modèle ML.
 3. **Infrastructure :** API conteneurisée via **Docker** et hébergée publiquement sur **Render**.
 
@@ -42,7 +42,10 @@ Le projet est divisé en deux services web indépendants (Microservices) :
 
 L'API de prédiction est en ligne et accessible publiquement ! Vous pouvez interagir avec l'IA via l'interface Swagger (UI) : 
 👉 **L'API de prédiction est en ligne et accessible publiquement ! Vous pouvez interagir avec l'IA via l'interface Swagger (UI) : 
-👉 **[Lien vers l'API GetAround en ligne](https://ton-api-getaround.onrender.com/docs)**
+👉 L'API de prédiction est en ligne et accessible publiquement ! Vous pouvez interagir avec l'IA via l'interface Swagger (UI) : 
+👉 **[Lien vers l'API GetAround en ligne](https://getaround-api-o2ij.onrender.com/docs)**
+
+*(⏳ Note : L'API est hébergée sur un serveur gratuit. Si elle n'a pas été utilisée récemment, le premier chargement peut prendre **1 à 2 minutes** le temps que le serveur se réveille. Merci de votre patience !)*
 
 **Format de requête attendu (Exemple de Payload JSON) :**
 ```json
